@@ -3,13 +3,13 @@ package tweetModels
 type Flow struct{
   TwId string `json:"twId"`
   Ticker string `json:"ticker"`
-  Strike double `json:"strike"`
+  Strike float32 `json:"strike"`
   PC string `json:"pc"`
   Quantity int `json:"quantity"`
-  Price double `json:"price"`
+  Price float32 `json:"price"`
   Expiration string `json:"expiration"`
   BidAsk string `json:"bidAsk"`
-  RefPrice double `json:"refPrice"`
+  RefPrice float32 `json:"refPrice"`
   TimeStamp string `json:"createdAt"`
   Aggressiveness string `json:"aggressiveness"`
 }
