@@ -7,3 +7,4 @@ type News struct{
   Text string
   TimeStamp string
 }
+  
