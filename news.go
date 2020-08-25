@@ -1,10 +1,9 @@
 package tweetModels
 
-type News struct{
-  TwId string
-  User string
-  Ticker string
-  Text string
-  TimeStamp string
+type News struct {
+	TwId      string
+	User      string
+	Ticker    string
+	Text      string
+	TimeStamp string
 }
-  
