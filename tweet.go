@@ -6,7 +6,3 @@ type Tweet struct {
 	Text      string `json:"text"`
 	TimeStamp string `json:"created_at"`
 }
-
-func UnMarshall([]byte) (*Tweet, error) {
-
-}
