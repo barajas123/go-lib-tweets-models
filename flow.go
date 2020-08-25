@@ -11,7 +11,7 @@ type Flow struct {
 	BidAsk     string  `json:"bidAsk"`
 	RefPrice   float32 `json:"refPrice"`
 	TimeStamp  string  `json:"createdAt"`
-	IsSweep    string  `json:"isSweep"`
-	IsOpening  string  `json:"isOpening"`
+	IsSweep    bool    `json:"isSweep"`
+	IsOpening  bool    `json:"isOpening"`
 	RefVolume  float32 `json:"refVolume"`
 }
